@@ -98,7 +98,8 @@ cron.schedule('*/2 * * * *', async () => {
 // APİ KEY
 
 app.use(function (req, res, next) {
-    if(req.query.key !== process.env.API_KEY || !req.query.key && req.url !== '/') {
+    if(req.query.key !== process.env.API_KEY || !req.query.key) {
+        if(req.url == '/') return next();
         return res.json({
             status: false,
             message: 'Invalid API Key',
