@@ -93,6 +93,23 @@ cron.schedule('*/2 * * * *', async () => {
     timezone: "Europe/Istanbul"
 });
 
+/*
+
+// APİ KEY
+
+app.use(function (req, res, next) {
+    if(req.query.key !== process.env.API_KEY || !req.query.key && req.url !== '/') {
+        return res.json({
+            status: false,
+            message: 'Invalid API Key',
+        })
+    } else {
+        next();
+    }
+});
+
+*/
+
 app.get('/', async (req, res) => {
     res.json({
         status: true,
