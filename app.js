@@ -21,7 +21,7 @@ const getExchangeRate = async (fromCurrency) => {
             switch (fromCurrency) {
                 case 'usd':
                     return {
-                        euro: rate.eur,
+                        eur: rate.eur,
                         try: rate.try,
                         rub: rate.rub,
                         inr: rate.inr,
@@ -36,21 +36,21 @@ const getExchangeRate = async (fromCurrency) => {
                 case 'try':
                     return {
                         usd: rate.usd,
-                        euro: rate.eur,
+                        eur: rate.eur,
                         rub: rate.rub,
                         inr: rate.inr,
                     }
                 case 'rub':
                     return {
                         usd: rate.usd,
-                        euro: rate.eur,
+                        eur: rate.eur,
                         try: rate.try,
                         inr: rate.inr,
                     }
                 case 'inr':
                     return {
                         usd: rate.usd,
-                        euro: rate.eur,
+                        eur: rate.eur,
                         try: rate.try,
                         rub: rate.rub,
                     }
