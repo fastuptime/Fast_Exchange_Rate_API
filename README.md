@@ -12,6 +12,7 @@
 ![image](https://github.com/fastuptime/Fast_Exchange_Rate_API/assets/63351166/f37e5c02-035a-4231-99b0-d4762188bc57)
 ![image](https://github.com/fastuptime/Fast_Exchange_Rate_API/assets/63351166/17d77535-47e0-4f30-9f2d-dd0a2132dc46)
 ![image](https://github.com/fastuptime/Fast_Exchange_Rate_API/assets/63351166/7a4e635f-dbc5-4e88-9b7c-ae3865ec4363)
+![image](https://github.com/fastuptime/Fast_Exchange_Rate_API/assets/63351166/d66ce6d7-0d6d-4cfd-b238-9225906bf41d)
 
 
 ## Tech Stack
