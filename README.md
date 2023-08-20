@@ -1,10 +1,10 @@
 # Fast_Exchange_Rate_API
 
-## Notes
+## 📜 Notes📜
 
 - Once every 20 minutes, the main api pulls the cumcel rate from the main api
 
-## Screenshots
+## 🎈 Images 🎈
 
 ![image](https://github.com/fastuptime/Fast_Exchange_Rate_API/assets/63351166/41c84794-7525-4315-ab44-850ab49cdd70)
 ![image](https://github.com/fastuptime/Fast_Exchange_Rate_API/assets/63351166/5ca5694e-90f4-46c4-a105-d869b3a15141)
@@ -15,17 +15,50 @@
 ![image](https://github.com/fastuptime/Fast_Exchange_Rate_API/assets/63351166/d66ce6d7-0d6d-4cfd-b238-9225906bf41d)
 
 
-## Tech Stack
+# ⚓ End Points ⚓
 
-**Server:** NodeJs, WioDb, Node Cron, Express, Axios, Moment
+```http
+  GET /api/usd
+```
+##
+```http
+  GET /api/eur
+```
+##
+```http
+  GET /api/try
+```
+##
+```http
+  GET /api/rub
+```
+##
+```http
+  GET /api/inr
+```
+
+# 🛠️ Installation 🛠️
+
+- Download and install [NodeJs](https://nodejs.org/en/download) on your computer.
+- Download the project as Zip to your computer and unzip it.
+- Enter the folder you extracted from the zip and open a terminal to the location of that folder, then enter the following commands.
+`npm install`
+- Start the bot by entering the following command in Terminal
+`node .`
+
+## ⛳Tech Stack ⛳
+
+**🗄️Server:** Node, WioDb, Express, body-parser, Node Cron, Axios, Moment
 
 ---
-- ✨ [Destek İçin](https://fastuptime.com) <br>
+- ✨ [For Support](https://github.com/sponsors/fastuptime) <br>
 - 💕 [Discord](https://fastuptime.com/discord)<br>
-- 🎖️ [FasterHost Technology](https://fasterhost.tech/)<br>
-- ✨ İletişim için [Tıkla!](mailto:fastuptime@gmail.com)<br>
+- 🏓 [Fast Uptime](https://fastuptime.com/)<br>
+- 🪄 All kinds of projects are made <br>
+- 🧨 You can contact us to make a paid project<br>
+- ☄️ [Click For Contact](mailto:fastuptime@gmail.com)<br>
 
-# License
-- Its protected by Creative Commons ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/))
+# 🎯 License 🎯
+- ⚖️ Its protected by Creative Commons ([CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/))
 
 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" title="BYNCSA40"><img src="https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png"></a>
